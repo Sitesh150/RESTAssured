@@ -2,6 +2,7 @@ package testRunner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.BeforeClass;
 
 @CucumberOptions(features = {"src/test/resources/Features"},
                      glue = {"steps"},
@@ -10,4 +11,9 @@ import io.cucumber.testng.CucumberOptions;
                             "junit:test-output/XMLReports/RESTAssured-Report/Report.xml",
                             "rerun:test-output/MMAFailed/RESTAssured.txt"},
                monochrome = true)
-public class TestRunner extends AbstractTestNGCucumberTests {}
+public class TestRunner extends AbstractTestNGCucumberTests {
+    @BeforeClass
+    public void getChanges(){
+        System.out.println("From Test Runner");
+    }
+}
