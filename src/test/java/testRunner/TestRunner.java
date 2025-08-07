@@ -15,5 +15,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     @BeforeClass
     public void getChanges(){
         System.out.println("From Test Runner");
+        System.out.println("From Test Runner-1");
     }
 }
