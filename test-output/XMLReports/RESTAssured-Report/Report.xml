@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="1.945" tests="6" skipped="0" failures="0" errors="0">
-<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.1" time="0.709">
+<testsuite name="Cucumber" time="2.181" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.1" time="0.956">
 <system-out><![CDATA[
 Given Get the required payload..............................................passed
 When User calls the resource "/maps/api/place/add/json" with http post request.passed
@@ -8,7 +8,7 @@ Then the API call status should get statusCode 200..........................pass
 And the Status "OK" in respond body is OK...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.2" time="0.22">
+<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.2" time="0.216">
 <system-out><![CDATA[
 Given Get the required payload..............................................passed
 When User calls the resource "/maps/api/place/add/json" with http post request.passed
@@ -16,7 +16,7 @@ Then the API call status should get statusCode 200..........................pass
 And the Status "OK" in respond body is OK...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.3" time="0.222">
+<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.3" time="0.246">
 <system-out><![CDATA[
 Given Get the required payload..............................................passed
 When User calls the resource "/maps/api/place/add/json" with http post request.passed
@@ -24,7 +24,7 @@ Then the API call status should get statusCode 200..........................pass
 And the Status "OK" in respond body is OK...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.4" time="0.253">
+<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.4" time="0.234">
 <system-out><![CDATA[
 Given Get the required payload..............................................passed
 When User calls the resource "/maps/api/place/add/json" with http post request.passed
@@ -32,7 +32,7 @@ Then the API call status should get statusCode 200..........................pass
 And the Status "OK" in respond body is OK...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.5" time="0.237">
+<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.5" time="0.231">
 <system-out><![CDATA[
 Given Get the required payload..............................................passed
 When User calls the resource "/maps/api/place/add/json" with http post request.passed
@@ -40,7 +40,7 @@ Then the API call status should get statusCode 200..........................pass
 And the Status "OK" in respond body is OK...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.6" time="0.24">
+<testcase classname="Validate Create Location API with a valid payload" name="Creating a new location using REST API - Example #1.6" time="0.234">
 <system-out><![CDATA[
 Given Get the required payload..............................................passed
 When User calls the resource "/maps/api/place/add/json" with http post request.passed
