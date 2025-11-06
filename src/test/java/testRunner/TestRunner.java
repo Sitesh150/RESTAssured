@@ -13,6 +13,8 @@ import org.testng.annotations.BeforeClass;
                monochrome = true)
 public class TestRunner extends AbstractTestNGCucumberTests {
     @BeforeClass
+    public void getTestRunner(){
+        System.out.println("From Test Runner!!");
     public void getChanges(){
         System.out.println("From Test Runner");
         System.out.println("From Test Runner-1");
