@@ -22,7 +22,7 @@
             <version>5.5.5</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <!-- https://mvnrepository.com/artifact/org.testng/testng TestNG-->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
