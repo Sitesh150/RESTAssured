@@ -1,2 +1,8 @@
 2025-08-06 17:39:16,222 INFO t.CreateLocationTest [main] Log is started!!
 2025-08-06 17:39:20,801 INFO c.GenericUtil [main] Stopping logs
+2025-08-06 23:11:20,082 INFO t.CreateLocationTest [main] Log is started!!
+2025-08-06 23:11:24,481 INFO c.GenericUtil [main] Stopping logs
+2025-08-06 23:13:15,677 INFO t.CreateLocationTest [main] Log is started!!
+2025-08-06 23:13:19,945 INFO c.GenericUtil [main] Stopping logs
+2025-08-07 07:19:28,800 INFO t.CreateLocationTest [main] Log is started!!
+2025-08-07 07:19:33,051 INFO c.GenericUtil [main] Stopping logs
